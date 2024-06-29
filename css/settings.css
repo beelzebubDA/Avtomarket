@@ -1,0 +1,11 @@
+.d_flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify_center{
+    justify-content: center;
+}
+.justify_between{
+    justify-content: space-between;
+}
+

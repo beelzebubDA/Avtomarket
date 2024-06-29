@@ -1,0 +1,437 @@
+.headerBottomSearch form button {
+    outline: none;
+}
+.headerBottomSearch form button:hover {
+    background: #8C8E8F;
+    border: 1px solid #8C8E8F;
+}
+.headerBottomLogin p {
+    transition: 0.5s;
+    cursor: pointer;
+}
+.headerBottomLogin p:hover {
+    color: #FE5000;
+}
+.mainBannerItem {
+    transition: 0.5s;
+}
+.mainBannerItem:hover {
+    background: #3E4243;
+    border: 1px solid #3E4243;
+}
+.mainBannerItem:hover .mainBannerTitle {
+    color: #FE5000;
+}
+.mainBannerTitle {
+    transition: 0.5s;
+}
+.mainBannerAll a:hover {
+    background: #8C8E8F;
+    color: #fff;
+}
+.allBlock a:hover {
+    color: #FE5000;
+}
+.footerMenu ul li a:hover {
+    color: #FFD815;
+}
+.footerPolicy a:hover {
+    color: #FFD815;
+}
+.footerCopyright a:hover {
+    color: #FFD815;
+}
+.catalogItem {
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.catalogItem:hover {
+    background: #c1c1c1;
+}
+.catalogItemOverlayLeft {
+    position: absolute;
+    left: -46%;
+    top: 0;
+    transition: 0.5s;
+}
+.catalogItemOverlayRight {
+    position: absolute;
+    right: -46%;
+    bottom: 0;
+    transition: 0.5s;
+}
+.catalogItemImgHover {
+    opacity: 0;
+    transition: 0.5s;
+}
+.catalogItem:hover .catalogItemOverlayLeft {
+    left: 0;
+}
+.catalogItem:hover .catalogItemOverlayRight {
+    right: 0;
+}
+.catalogItem:hover .catalogItemImgWhite {
+    opacity: 0;
+}
+.catalogItem:hover .catalogItemImgHover {
+    opacity: 1;
+}
+.catalogItemImgWhite {
+    position: absolute;
+    z-index: 2;
+    transition: 0.5s;
+}
+.catalogItemImgHover {
+    position: absolute;
+    z-index: 2;
+}
+.catalogProductsItem {
+    overflow: hidden;
+}
+.productItemOverlayLeft {
+    position: absolute;
+    left: -85%;
+    top: 0;
+    transition: 0.5s;
+}
+.productItemOverlayRight {
+    position: absolute;
+    right: -52% !important;
+    bottom: 0 !important;
+    transition: 0.5s;
+}
+.catalogProductsItem {
+    transition: 0.5s;
+}
+.catalogProductsItem:hover .productItemOverlayLeft {
+    left: 0;
+}
+.catalogProductsItem:hover .productItemOverlayRight {
+    right: 0 !important;
+}
+.catalogProductsItem h3 {
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+}
+.catalogProductsItem:hover h3 {
+    color: #FFFFFF;
+}
+.catalogProductsItem:hover .productsItemImg  {
+    opacity: 0;
+}
+.productsItemImg {
+    transition: 0.5s;
+    z-index: 2;
+}
+.productsItemImgHover  {
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 2;
+}
+.catalogProductsItem:hover .productsItemImgHover  {
+    opacity: 1;
+}
+.breadcrumbBlock ul li a:hover {
+    color: #000002;
+}
+.originalReadItem:nth-child(2) a:hover {
+    background: #8C8E8F;
+    color: #fff;
+}
+.originalReadItem:nth-child(3) a:hover {
+    background: #8C8E8F;
+    color: #fff;
+}
+.originalItem {
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.originalItem:hover .catalogItemOverlayLeft {
+    left: 0;
+}
+.originalItem:hover .catalogItemOverlayRight {
+    right: 0;
+}
+.originalItemImg {
+    position: relative;
+    z-index: 2;
+}
+.aboutVideoPlayHover {
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    width: 95px;
+    height: auto;
+    opacity: 0;
+    transition: 0.5s;
+    z-index: 2;
+}
+.aboutVideoPlay {
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 2;
+}
+.aboutVideoPlay {
+    z-index: 3;
+}
+.aboutVideo:hover .aboutVideoPlay {
+    opacity: 0;
+}
+.aboutVideo:hover .aboutVideoPlayHover {
+    opacity: 1;
+}
+.filterPriceInput input {
+    transition: 0.5s;
+}
+.filterPriceInput input::placeholder {
+    color: #8C8E8F;
+    transition: 0.5s;
+  }
+.filterPriceInput input:hover {
+    border: 1px solid #FE5000;
+}
+.filterPriceInput input:hover::placeholder {
+    color: #000002;
+}
+.filterDeliveryInput label {
+    transition: 0.5s;
+}
+.filterDeliveryInput label:hover {
+    color: #FE5000;
+}
+.filterDeliveryInput label:hover input::before {
+    border: 1px solid #FE5000;
+}
+.filterDeliveryInput label:hover input::after {
+    opacity: 1;
+}
+.filterBrandInput label:hover {
+    color: #FE5000;
+}
+.filterBrandInput label:hover input::before {
+    border: 1px solid #FE5000;
+}
+.filterLink a {
+    transition: 0.5s;
+}
+.filterLink a:first-child:hover {
+    background: #8C8E8F;
+    color: #fff;
+}
+.filterLink a:last-child:hover {
+    background: #FFD815;
+    color: #000002;
+    border: 1px solid #FFD815;
+}
+.subHeadTopButton a:nth-child(1):hover {
+    background: #FFD815;
+    color: #000002;
+    border: 1px solid #FFD815;
+}
+.subHeadTopButton {
+    display: flex;
+}
+.subHeadTopButton a:nth-child(2):hover {
+    background: #8C8E8F;
+    color: #fff;
+}
+.rightSubHeadBottom p:nth-child(5) span {
+    transition: 0.5s;
+    cursor: pointer;
+}
+.rightSubHeadBottom p:nth-child(5) span:hover {
+    color: #3E4243;
+}
+.subQuant span:nth-child(1) {
+    transition: 0.5s;
+    cursor: pointer;
+}
+.subQuant span:nth-child(1):hover {
+    background: #8C8E8F;
+}
+.subQuant span:nth-child(3) {
+    transition: 0.5s;
+    cursor: pointer;
+}
+.subQuant span:nth-child(3):hover {
+    background: #8C8E8F;
+}
+.subCart button {
+    transition: 0.5s;
+}
+.subCart button:hover {
+    background: #8C8E8F;
+}
+@media screen and (max-width: 1560px) {
+    .catalogSlider .owl-prev:before {
+        left: 45.9px;
+    }
+    .catalogSlider .owl-next:before {
+        left: -53.7px;
+    }
+    .allBlock a {
+        font-size: 15px;
+        letter-spacing: 0.6px;
+        margin-right: -4px;
+    }
+    .mainCatalogProducts .allBlock a {
+        margin-right: 19px;
+    }
+    .catalogProductsItem h3 {
+        padding-right: 60px;
+    }
+    .catalogItemOverlayLeft {        
+        left: -50%;
+    }
+    .catalogItemOverlayRight {        
+        right: -50%;
+    }
+    .productItemOverlayLeft {        
+        left: -95%;
+    }
+    .productItemOverlayRight {        
+        right: -65% !important;
+    }
+    /* original catalog 1366 */
+    .catalogItemOverlayLeft{
+        left: -54%;
+    }
+    .catalogItemOverlayRight {
+        right: -54%;
+    }
+}
+@media screen and (max-width: 1366px) {
+    .allBlock a {      
+        margin-right: -3px;
+    }
+    .mainCatalogProducts .allBlock a {
+        font-size: 15px;
+        letter-spacing: 0.6px;
+        margin-right: 18px;
+    }
+    .productItemOverlayLeft {
+        left: -130%;
+    }
+    .productItemOverlayRight {
+        right: -80% !important;
+    }
+    .catalogProductsItem:hover .productItemOverlayLeft {
+        left: -65px;
+    }
+    .catalogProductsItem:hover .productItemOverlayRight {
+        right: -30px !important;
+    }
+    /* original catalog 1024 */
+    .catalogItemOverlayLeft {
+        left: -72%;
+    }
+    .catalogItemOverlayRight {
+        right: -72%;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .allBlock a {
+        font-size: 13px;
+    }
+    .mainCatalogProducts .allBlock a {
+        font-size: 13px;        
+        margin-right: 42px;
+    }
+    .catalogProductsItem h3 {
+        font-size: 18px;
+        padding-right: 0;
+    }
+    .catalogProductsItem h3 br {
+        display: none;
+    }
+    .catalogItemOverlayLeft {        
+        left: -70%;
+    }
+    .catalogItemOverlayRight {        
+        right: -70%;
+    }
+    .catalogItem:hover .catalogItemOverlayLeft {
+        left: -15%;
+    }
+    .catalogItem:hover .catalogItemOverlayRight {
+        right: -15%;
+    }
+    /* search -result 768*/
+    .subHeadTopButton{
+        width: 255px;
+        height: 48px;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 767px) {
+    .headerTopMap a img {
+        height: 12px;
+        margin-right: 2px;
+    }
+    .headerTopMap {
+        width: 17%;
+    }
+    .catalogSlider .owl-next:before {
+        left: -26.7px;
+        top: -2.7px;
+    }
+    .catalogSlider .owl-prev:before {
+        left: 22.9px;
+        top: -2.7px;
+    }
+    .catalogProductsItem h3 {
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    .catalogItemOverlayLeft {        
+        left: -95%;
+        top: -22px;        
+    }
+    .catalogItemOverlayRight {        
+        right: -95%;
+        bottom: -22px;        
+    }
+    .catalogItem:hover .catalogItemOverlayLeft {
+        left: -50%;
+    }
+    .catalogItem:hover .catalogItemOverlayRight {
+        right: -50%;
+    }
+    /* search result 414 */
+    .subHeadTopButton{
+        width: 100%;
+        justify-content: flex-start;
+        column-gap: 15px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .mainBannerDate {        
+        margin-bottom: 1px;
+    }
+    .mainBannerTitle {
+        margin-bottom: 7px;
+    }
+    .catalogSlider .owl-next:before {        
+        top: -3.2px;
+    }
+    .catalogSlider .owl-prev:before {
+        top: -3.2px;
+    }
+    .catalogItemOverlayLeft {
+        left: -130%;        
+    }
+    .catalogItemOverlayRight {        
+        right: -130%;                   
+    }
+    .catalogProductsItem:hover .productItemOverlayLeft {
+        left: -100px;
+        height: auto;
+    }
+    .catalogProductsItem:hover .productItemOverlayRight {
+        right: -65px !important;
+        height: auto;
+    }
+}
